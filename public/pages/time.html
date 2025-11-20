@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaggou - Nosso Time</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="/public/styles/index.css">
+</head>
+<body>
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="nav-esquerda">
+      <div class="logo"><a href="index.html">Vaggou</a></div>
+      <ul class="links-nav">
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="time.html" class="ativo">Time</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="envie.html">Envie uma vaga</a></li>
+      </ul>
+    </div>
+    <div class="nav-direita">
+      <a href="https://github.com" target="_blank" class="btn-icone-nav" aria-label="Repositório GitHub">
+        <i class="ph ph-github-logo"></i>
+      </a>
+      <button class="btn-icone-nav" id="alternar-tema" aria-label="Alternar tema">
+        <i class="ph ph-sun icone-sol" style="display: none;"></i>
+        <i class="ph ph-moon icone-lua"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+  <main>
+    <section class="secao-paginas">
+      <header class="cabecalho">
+        <h1>Quem faz acontecer 💡</h1>
+        <p class="subtitulo">Conheça as mentes por trás da Vaggou.</p>
+      </header>
+
+      <div class="grid-time">
+        
+        <div class="card-membro">
+          <img src="/public/images/audibert.jpg" alt="Matheus Audibert" class="foto-membro">
+          <div class="info-membro">
+            <h3>Matheus Audibert</h3>
+            <span>Front-End</span>
+          </div>
+        </div>
+
+        <div class="card-membro">
+          <img src="/public/images/felipe.jpg" alt="Felipe Kinder" class="foto-membro">
+          <div class="info-membro">
+            <h3>Felipe Kinder</h3>
+            <span>UI/UX Designer</span>
+          </div>
+        </div>
+
+        <div class="card-membro">
+          <img src="/public/images/lucas.jpg" alt="Lucas" class="foto-membro">
+          <div class="info-membro">
+            <h3>Lucas</h3>
+            <span>Desenvolvedor de Bot</span>
+          </div>
+        </div>
+
+        <div class="card-membro">
+          <img src="/public/images/ramon.jpg" alt="Ramon Martins" class="foto-membro">
+          <div class="info-membro">
+            <h3>Ramon Martins</h3>
+            <span>Automação</span>
+          </div>
+        </div>
+
+        <div class="card-membro">
+          <img src="/public/images/thiago.jpeg" alt="Thiago Saccomani" class="foto-membro">
+          <div class="info-membro">
+            <h3>Thiago Saccomani</h3>
+            <span>Back-End</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Vaggou</div>
+      <div class="footer-links">
+        Links: <a href="#">Alura</a> | <a href="#">FIAP</a> | <a href="#">PM3</a> | <a href="#">StartSe</a>
+      </div>
+      <div class="footer-contact">
+        Fale com o Grupo: <a href="mailto:contato@vaggou.com.br">contato@vaggou.com.br</a>
+      </div>
+      <div class="footer-address">
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/som.js"></script>
+</body>
+</html>

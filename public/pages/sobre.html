@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaggou - Sobre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="/public/styles/index.css">
+</head>
+<body>
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="nav-esquerda">
+      <div class="logo"><a href="index.html">Vaggou</a></div>
+      <ul class="links-nav">
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html" class="ativo">Sobre</a></li>
+        <li><a href="time.html">Time</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="envie.html">Envie uma vaga</a></li>
+      </ul>
+    </div>
+    <div class="nav-direita">
+      <a href="https://github.com" target="_blank" class="btn-icone-nav" aria-label="Repositório GitHub">
+        <i class="ph ph-github-logo"></i>
+      </a>
+      <button class="btn-icone-nav" id="alternar-tema" aria-label="Alternar tema">
+        <i class="ph ph-sun icone-sol" style="display: none;"></i>
+        <i class="ph ph-moon icone-lua"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+  <main>
+    <section class="secao-paginas">
+      <header class="cabecalho">
+        <h1>Sobre a Vaggou 📍</h1>
+        <p class="subtitulo">Conectando os melhores talentos às oportunidades que realmente importam.</p>
+      </header>
+
+      <div class="container-jobsletter" style="text-align: left; line-height: 1.8;">
+        <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Nossa História</h3>
+        <p style="margin-bottom: 1.5rem; color: var(--text-color); opacity: 0.9;">
+          A <strong>Vaggou</strong> nasceu de uma necessidade clara: agrupar vagas de tecnologia que fossem realmente boas, transparentes e livres de processos exaustivos. Percebemos que muitos desenvolvedores perdiam tempo filtrando oportunidades que não condiziam com a realidade ou com seus valores.
+        </p>
+        
+        <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Nosso Propósito</h3>
+        <p style="margin-bottom: 1.5rem; color: var(--text-color); opacity: 0.9;">
+          Queremos simplificar o ecossistema de contratação tech. Acreditamos em um mercado mais humano, onde a diversidade é valorizada, por isso nosso foco em vagas afirmativas, e onde a transparência sobre salários e modelos de trabalho é a regra, não a exceção.
+        </p>
+
+        <p style="color: var(--text-color); opacity: 0.9;">
+          Seja você um júnior buscando a primeira oportunidade ou um sênior procurando novos desafios, a Vaggou é o seu lugar. eja você um júnior buscando a primeira oportunidade ou um sênior procurando novos desafios, a Vaggou é o seu lugar
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Vaggou</div>
+      <div class="footer-links">
+        Links: <a href="#">Alura</a> | <a href="#">FIAP</a> | <a href="#">PM3</a> | <a href="#">StartSe</a>
+      </div>
+      <div class="footer-contact">
+        Fale com o Grupo: <a href="mailto:contato@vaggou.com.br">contato@vaggou.com.br</a>
+      </div>
+      <div class="footer-address">
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/som.js"></script>
+</body>
+</html>

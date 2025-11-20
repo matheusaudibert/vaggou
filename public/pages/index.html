@@ -12,19 +12,24 @@
   <link rel="stylesheet" href="/public/styles/index.css">
 </head>
 <body>
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
 
   <!-- NAV -->
+
   <nav>
     <div class="nav-esquerda">
       <div class="logo"><a href="index.html">Vaggou</a></div>
       <ul class="links-nav">
         <li><a href="vagas.html">Vagas</a></li>
-        <li><a href="#">Vagas Afirmativas</a></li>
-        <li><a href="#">Jobsletter</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Time</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Envie uma vaga</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="time.html">Time</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="envie.html">Envie uma vaga</a></li>
       </ul>
     </div>
     <div class="nav-direita">
@@ -39,12 +44,12 @@
   </nav>
 
   <!-- HERO PRINCIPAL -->
+
   <section class="secao-hero">
     <div class="selo">
       <span class="emoji-confetti">🎉</span> Introduzindo: vagas afirmativas
-      <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
     </div>
-    <h1>Vagas 💼 de Tecnologia na palma da sua mão <span class="emoji-flutuante">🖐️</span></h1>
+    <h1>Vagas 💼 de Tecnologia na palma da sua mão 🖐️</h1>
     <p class="subtitulo">
       Oportunidades atualizadas em tempo real, organizadas automaticamente por <span class="destaque">área</span>, <span class="destaque">stack</span> e <span class="destaque">senioridade</span>.
     </p>
@@ -53,7 +58,7 @@
         Acessar
         <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
       </a>
-      <a href="#" class="botao botao-secundario">
+      <a href="jobsletter.html" class="botao botao-secundario">
         <i class="ph ph-whatsapp-logo"></i>
         Receber no WhatsApp 
         <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -62,11 +67,13 @@
   </section>
 
   <!-- PARCEIROS -->
+
   <section class="secao-parceiros">
     <div class="carousel-parceiros">
       <div class="track-parceiros">
 
         <!-- Imagens Originais -->
+
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
@@ -74,6 +81,7 @@
         <div class="slide-parceiro"><img src="https://3299491.fs1.hubspotusercontent-na1.net/hubfs/3299491/logo-azul.svg" alt="Parceiro 5"></div>
         
         <!-- Duplicatas (Conjunto 1) -->
+
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
@@ -81,6 +89,7 @@
         <div class="slide-parceiro"><img src="https://3299491.fs1.hubspotusercontent-na1.net/hubfs/3299491/logo-azul.svg" alt="Parceiro 5"></div>
 
         <!-- Duplicatas (Conjunto 2 - para telas muito largas/zoom out) -->
+
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
         <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
@@ -92,6 +101,7 @@
   </section>
 
   <!-- COMO FUNCIONA -->
+
   <section class="secao-padrao">
     <h2>Como funciona?</h2>
     <div class="grid-funcionamento">
@@ -119,10 +129,13 @@
   </section>
 
   <!-- DEPOIMENTOS -->
+
   <section class="secao-padrao">
     <h2>O que as pessoas estão dizendo sobre a Vaggou?</h2>
     <div class="grid-depoimentos"> 
+
       <!-- Card 1 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://media.discordapp.net/attachments/1434777603373269003/1440910388601557112/839A5C56-93D4-4717-8BEF-959752F017EE.png?ex=691fdfdf&is=691e8e5f&hm=867db52102f46bd4d4f012283eef1ab1a3f6f9f31589a3bb4d45d8feb62ff85c&=&format=webp&quality=lossless" alt="Avatar" class="avatar">
@@ -136,6 +149,7 @@
       </div>
 
       <!-- Card 2 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=5" alt="Avatar" class="avatar">
@@ -149,6 +163,7 @@
       </div>
 
       <!-- Card 3 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=33" alt="Avatar" class="avatar">
@@ -162,6 +177,7 @@
       </div>
 
       <!-- Card 4 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=47" alt="Avatar" class="avatar">
@@ -175,6 +191,7 @@
       </div>
 
       <!-- Card 5 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=11" alt="Avatar" class="avatar">
@@ -188,6 +205,7 @@
       </div>
 
       <!-- Card 6 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=9" alt="Avatar" class="avatar">
@@ -201,6 +219,7 @@
       </div>
 
       <!-- Card 7 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=60" alt="Avatar" class="avatar">
@@ -214,6 +233,7 @@
       </div>
 
       <!-- Card 8 -->
+
       <div class="card-depoimento">
         <div class="cabecalho-card">
           <img src="https://i.pravatar.cc/150?img=44" alt="Avatar" class="avatar">
@@ -225,10 +245,26 @@
           Excelente iniciativa! As vagas afirmativas realmente fazem a diferença no mercado e me senti muito acolhida.
         </p>
       </div>
+
+      <!-- Card 9 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://media.discordapp.net/attachments/1434777603373269003/1440910388601557112/839A5C56-93D4-4717-8BEF-959752F017EE.png?ex=691fdfdf&is=691e8e5f&hm=867db52102f46bd4d4f012283eef1ab1a3f6f9f31589a3bb4d45d8feb62ff85c&=&format=webp&quality=lossless" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Maurício Elefante</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Simplesmente incrível! Consegui minha primeira vaga internacional usando a plataforma. A organização por stack facilitou muito. 🚀
+        </p>
+      </div>
+
     </div>
   </section>
 
   <!-- FAQ -->
+
   <section class="secao-faq">
     <h2>Perguntas Frequentes</h2>
     <div class="faq-container">
@@ -277,6 +313,7 @@
   </section>
 
   <!-- FOOTER -->
+
   <footer>
     <div class="footer-content">
       <div class="footer-logo">Vaggou</div>
@@ -292,6 +329,7 @@
     </div>
   </footer>
 
-  <script src="/public/scripts/index.js"></script>
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/som.js"></script>
 </body>
 </html>

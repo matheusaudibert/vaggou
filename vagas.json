@@ -12,6 +12,7 @@
       "JavaScript"
     ],
     "salario": "R$ 3.800",
+    "afirmativa": "Mulheres",
     "link": "#"
   },
   {
@@ -27,6 +28,7 @@
       "Docker"
     ],
     "salario": "R$ 6.200",
+    "afirmativa": null,
     "link": "#"
   },
   {
@@ -42,6 +44,7 @@
       "MongoDB"
     ],
     "salario": "R$ 8.000",
+    "afirmativa": "LGBTQIA+",
     "link": "#"
   },
   {
@@ -57,6 +60,7 @@
       "Microservices"
     ],
     "salario": "R$ 11.500",
+    "afirmativa": null,
     "link": "#"
   },
   {
@@ -72,6 +76,7 @@
       "PowerBI"
     ],
     "salario": "R$ 6.800",
+    "afirmativa": "Pessoas com deficiência",
     "link": "#"
   },
   {
@@ -87,6 +92,7 @@
       "SQL"
     ],
     "salario": "R$ 3.900",
+    "afirmativa": null,
     "link": "#"
   },
   {
@@ -102,6 +108,7 @@
       "ML"
     ],
     "salario": "R$ 9.500",
+    "afirmativa": "Pessoas negras",
     "link": "#"
   },
   {
@@ -117,6 +124,7 @@
       "Shell"
     ],
     "salario": "R$ 5.800",
+    "afirmativa": null,
     "link": "#"
   },
   {
@@ -132,6 +140,7 @@
       "Microservices"
     ],
     "salario": "R$ 12.000",
+    "afirmativa": null,
     "link": "#"
   },
   {
@@ -146,6 +155,311 @@
       "TypeScript"
     ],
     "salario": "R$ 6.500",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 11,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Sênior",
+    "empresa": "CloudWave",
+    "descricao": "Criar soluções escaláveis full stack...",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "React",
+      "AWS"
+    ],
+    "salario": "R$ 13.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 12,
+    "titulo": "Analista de Dados",
+    "nivel": "Sênior",
+    "empresa": "DataMind",
+    "descricao": "Criar análises estratégicas avançadas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Python",
+      "SQL",
+      "Databricks"
+    ],
+    "salario": "R$ 10.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 13,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Júnior",
+    "empresa": "CodeFactory",
+    "descricao": "Desenvolver APIs internas...",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "Redis"
+    ],
+    "salario": "R$ 4.200",
+    "afirmativa": "Mulheres",
+    "link": "#"
+  },
+  {
+    "id": 14,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Pleno",
+    "empresa": "TechBridge",
+    "descricao": "Atuar em arquiteturas distribuídas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Go",
+      "Kubernetes"
+    ],
+    "salario": "R$ 9.800",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 15,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Sênior",
+    "empresa": "PixelLab",
+    "descricao": "Criar interfaces ricas e acessíveis...",
+    "modelo": "Presencial",
+    "tags": [
+      "Vue.js",
+      "Tailwind"
+    ],
+    "salario": "R$ 11.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 16,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Sênior",
+    "empresa": "InfoTech",
+    "descricao": "Gerenciar requisitos e integrações...",
+    "modelo": "Remoto",
+    "tags": [
+      "Sistemas",
+      "Documentação"
+    ],
+    "salario": "R$ 8.200",
+    "afirmativa": "Pessoas com deficiência",
+    "link": "#"
+  },
+  {
+    "id": 17,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Júnior",
+    "empresa": "DevStart",
+    "descricao": "Atuar no desenvolvimento de sistemas web...",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "salario": "R$ 4.800",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 18,
+    "titulo": "Analista de Dados",
+    "nivel": "Pleno",
+    "empresa": "InsightsPro",
+    "descricao": "Criar dashboards impactantes...",
+    "modelo": "Remoto",
+    "tags": [
+      "Looker",
+      "BigQuery"
+    ],
+    "salario": "R$ 7.500",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 19,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Júnior",
+    "empresa": "SoftWorks",
+    "descricao": "Dar manutenção em microsserviços...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Java",
+      "RabbitMQ"
+    ],
+    "salario": "R$ 5.600",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 20,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Pleno",
+    "empresa": "APIForce",
+    "descricao": "Desenvolver APIs escaláveis...",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "MongoDB"
+    ],
+    "salario": "R$ 7.200",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 21,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Júnior",
+    "empresa": "FrontLab",
+    "descricao": "Criar páginas responsivas...",
+    "modelo": "Remoto",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "salario": "R$ 3.500",
+    "afirmativa": "Pessoas negras",
+    "link": "#"
+  },
+  {
+    "id": 22,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Pleno",
+    "empresa": "ConnectSys",
+    "descricao": "Atuar com análise e integrações...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Sistemas",
+      "BPMN"
+    ],
+    "salario": "R$ 6.700",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 23,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Sênior",
+    "empresa": "CloudPrime",
+    "descricao": "Desenvolver plataformas de alta escala...",
+    "modelo": "Remoto",
+    "tags": [
+      "AWS",
+      "Node.js",
+      "Lambda"
+    ],
+    "salario": "R$ 14.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 24,
+    "titulo": "Analista de Dados",
+    "nivel": "Júnior",
+    "empresa": "InsightX",
+    "descricao": "Construir análises operacionais...",
+    "modelo": "Presencial",
+    "tags": [
+      "Excel",
+      "SQL"
+    ],
+    "salario": "R$ 3.200",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 25,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Pleno",
+    "empresa": "WebCraft",
+    "descricao": "Criar features completas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Node.js"
+    ],
+    "salario": "R$ 7.900",
+    "afirmativa": "LGBTQIA+",
+    "link": "#"
+  },
+  {
+    "id": 26,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Pleno",
+    "empresa": "UIWorks",
+    "descricao": "Criar interfaces sofisticadas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Styled Components"
+    ],
+    "salario": "R$ 7.100",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 27,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Júnior",
+    "empresa": "TechSys",
+    "descricao": "Dar suporte em sistemas internos...",
+    "modelo": "Remoto",
+    "tags": [
+      "SQL",
+      "Linux"
+    ],
+    "salario": "R$ 4.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 28,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Júnior",
+    "empresa": "BackForge",
+    "descricao": "Manter APIs internas...",
+    "modelo": "Presencial",
+    "tags": [
+      "Node.js"
+    ],
+    "salario": "R$ 4.000",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 29,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Pleno",
+    "empresa": "NextTech",
+    "descricao": "Atuar na evolução de sistemas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Java",
+      "Spring Boot"
+    ],
+    "salario": "R$ 8.900",
+    "afirmativa": null,
+    "link": "#"
+  },
+  {
+    "id": 30,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Sênior",
+    "empresa": "UXForge",
+    "descricao": "Criar interfaces de alto impacto...",
+    "modelo": "Remoto",
+    "tags": [
+      "React",
+      "Next.js"
+    ],
+    "salario": "R$ 12.000",
+    "afirmativa": "Mulheres",
     "link": "#"
   }
 ]
