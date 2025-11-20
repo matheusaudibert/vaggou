@@ -48,6 +48,8 @@ nav {
 }
 
 .logo {
+  text-decoration: none;
+  color: black;
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: -0.02em;
@@ -193,10 +195,12 @@ p.subtitulo {
   85% { transform: rotate(0deg); } /* Volta ao centro e para */
 }
 
+
 .grupo-botoes {
   display: flex;
   gap: 1rem;
 }
+
 
 .botao {
   padding: 0.75rem 1.5rem;
@@ -277,4 +281,52 @@ p.subtitulo {
 .selo:hover .icone-seta,
 .botao:hover .icone-seta {
   transform: translateX(4px);
+}
+/* Sessão Time*/
+.time :hover{
+  text-decoration: none;
+  padding: 1px;
+  background: linear-gradient(
+    45deg,           /* Ângulo da divisão */
+        #a046e9 0%,      /* Cor 1 (verde limão) começa em 0% */
+        #8133c2 50%,      /* Cor 1 termina em 50% */
+        #62008f 50%,      /* Cor 2 (amêndoa) começa em 50% */
+        #4400ff 100%      /* Cor 2 termina em 100% */
+  );
+  color: #ffffff;
+  transform: translateY(-1px);
+  margin-top: -1px;
+  transform: scale(1.05)
+}
+.membros h1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 9rem;
+  max-width: 100px;
+  margin: 0 auto;
+}
+.membros h2{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 1rem 4rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.membros p{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
