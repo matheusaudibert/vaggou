@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Júnior",
+    "empresa": "TechVision",
+    "descricao": "Desenvolver interfaces modernas...",
+    "modelo": "Remoto",
+    "tags": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "salario": "R$ 3.800",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Pleno",
+    "empresa": "DevHouse",
+    "descricao": "Criar APIs escaláveis...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "salario": "R$ 6.200",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Pleno",
+    "empresa": "StackLab",
+    "descricao": "Atuar no front e back simultaneamente...",
+    "modelo": "Remoto",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "salario": "R$ 8.000",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Sênior",
+    "empresa": "NextGen Solutions",
+    "descricao": "Desenvolver sistemas robustos...",
+    "modelo": "Remoto",
+    "tags": [
+      "Java",
+      "Spring",
+      "Microservices"
+    ],
+    "salario": "R$ 11.500",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "titulo": "Analista de Dados",
+    "nivel": "Pleno",
+    "empresa": "DataWave",
+    "descricao": "Analisar dados e gerar insights...",
+    "modelo": "Presencial",
+    "tags": [
+      "SQL",
+      "Python",
+      "PowerBI"
+    ],
+    "salario": "R$ 6.800",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "titulo": "Analista de Dados",
+    "nivel": "Júnior",
+    "empresa": "InsightLab",
+    "descricao": "Criar dashboards e análises...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Python",
+      "Tableau",
+      "SQL"
+    ],
+    "salario": "R$ 3.900",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Pleno",
+    "empresa": "AIMinds",
+    "descricao": "Desenvolver soluções de IA...",
+    "modelo": "Remoto",
+    "tags": [
+      "Python",
+      "TensorFlow",
+      "ML"
+    ],
+    "salario": "R$ 9.500",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Pleno",
+    "empresa": "SysAdmin Pro",
+    "descricao": "Gerenciar servidores e redes...",
+    "modelo": "Híbrido",
+    "tags": [
+      "Linux",
+      "Redes",
+      "Shell"
+    ],
+    "salario": "R$ 5.800",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Sênior",
+    "empresa": "PrimeDev",
+    "descricao": "Criar e manter arquiteturas escaláveis...",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "Arquitetura",
+      "Microservices"
+    ],
+    "salario": "R$ 12.000",
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Pleno",
+    "empresa": "AppMasters",
+    "descricao": "Construir interfaces performáticas...",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "TypeScript"
+    ],
+    "salario": "R$ 6.500",
+    "link": "#"
+  }
+]

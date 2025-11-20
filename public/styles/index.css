@@ -1,0 +1,690 @@
+/* =========================================
+   1. VARIÁVEIS E RESET
+   ========================================= */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #000000;
+  --button-text: #ffffff;
+  --border-color: #e5e5e5;
+  --secondary-bg: #f5f5f5;
+  --gradient-rainbow: linear-gradient(90deg, #7928CA, #FF0080, #FF4D4D, #F9CB28, #00C16A, #0070F3);
+  --gradient-green: linear-gradient(90deg, #0cff0c, #0cff0c, #0cff0c, #0cff0c, #0cff0c, #0cff0c);
+}
+
+body.modo-escuro {
+  --bg-color: #0a0a0a;
+  --text-color: #ffffff;
+  --button-bg: #ffffff;
+  --button-text: #000000;
+  --border-color: #333333;
+  --secondary-bg: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================
+   2. TIPOGRAFIA E ELEMENTOS GERAIS
+   ========================================= */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 2.5rem;
+}
+
+p.subtitulo {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.6;
+  color: var(--text-color);
+  opacity: 0.7;
+  max-width: 800px;
+  margin-bottom: 2.5rem;
+}
+
+.destaque {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.icone {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ph {
+  font-size: 20px;
+}
+
+/* =========================================
+   3. BARRA DE NAVEGAÇÃO (NAV)
+   ========================================= */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  position: sticky; 
+  top: 0;
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgba(var(--bg-color), 0.5);
+  backdrop-filter: blur(15px);
+  z-index: 1000;
+}
+
+.nav-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.links-nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.links-nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.links-nav a:hover {
+  opacity: 1;
+}
+
+.nav-direita {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-icone-nav {
+  background: none;
+  color: var(--text-color);
+  padding: 0.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+
+.btn-icone-nav:hover {
+  background-color: var(--secondary-bg);
+}
+
+.icone-sol, .icone-lua {
+  font-size: 1.2rem;
+}
+
+/* =========================================
+   4. SEÇÃO HERO PRINCIPAL
+   ========================================= */
+.secao-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.selo {
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow : 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  background: var(--bg-color);
+  background-clip: padding-box;
+  z-index: 1;
+}
+
+.selo:hover {
+  background-color: var(--secondary-bg);
+  cursor: pointer;
+}
+
+.emoji-confetti {
+  font-size: 1.2rem;
+}
+
+.emoji-flutuante {
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+.emoji-flutuante:hover {
+  cursor: pointer;
+  animation: aceno 1s ease-in-out;
+}
+
+@keyframes aceno {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.grupo-botoes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.botao {
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.botao:hover::before {
+  opacity: 0.9;
+}
+
+.botao:active {
+  transform: scale(0.98);
+}
+
+.botao-primario {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-bottom: 1px solid var(--button-bg);
+}
+
+.botao-primario::before {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 5%;
+  width: 90%;
+  height: 12px;
+  background: var(--gradient-rainbow);
+  filter: blur(12px);
+  z-index: -1;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.botao-secundario {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.botao-secundario:hover {
+  background-color: var(--secondary-bg);
+}
+
+.botao-secundario::before {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 5%;
+  width: 90%;
+  height: 12px;
+  background: var(--gradient-green);
+  filter: blur(12px);
+  z-index: -1;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.icone-seta {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.selo:hover .icone-seta,
+.botao:hover .icone-seta {
+  transform: translateX(4px);
+}
+
+/* =========================================
+   5. SEÇÃO PARCEIROS (CAROUSEL)
+   ========================================= */
+.secao-parceiros {
+  padding: 2rem 1rem;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 100%; /* Garante que o container ocupe a largura total */
+  display: flex;
+  justify-content: center; /* Centraliza o carousel */
+}
+
+.carousel-parceiros {
+  width: 100%;
+  max-width: 1200px; /* Limita a largura máxima para centralizar em telas grandes */
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; /* Centraliza o bloco do carousel */
+}
+
+.carousel-parceiros::before,
+.carousel-parceiros::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-parceiros::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg-color), transparent);
+}
+
+.carousel-parceiros::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg-color), transparent);
+}
+
+.track-parceiros {
+  display: flex;
+  width: calc(200px * 15); 
+  animation: scroll 40s linear infinite;
+}
+
+.slide-parceiro {
+  width: 200px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.slide-parceiro img {
+  max-width: 100%;
+  height: auto;
+  /* Modo Claro: Preto (Silhueta) */
+  filter: grayscale(100%) brightness(0);
+  opacity: 0.6;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.slide-parceiro img:hover {
+  filter: grayscale(100%) brightness(0);
+  opacity: 1;
+}
+
+/* Modo Escuro: Branco (Silhueta invertida) */
+body.modo-escuro .slide-parceiro img {
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+}
+
+body.modo-escuro .slide-parceiro img:hover {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-200px * 5)); } /* Move a largura de um conjunto original (5 slides) */
+}
+
+/* =========================================
+   6. SEÇÕES PADRÃO (COMO FUNCIONA / DEPOIMENTOS)
+   ========================================= */
+.secao-padrao {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Grid Como Funciona */
+.grid-funcionamento {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.card-funcionamento {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.card-funcionamento:hover {
+  transform: translateY(-5px);
+  border-color: var(--text-color);
+}
+
+.card-funcionamento .passo-numero {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--border-color);
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.card-funcionamento h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-funcionamento p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+/* Grid Depoimentos */
+.grid-depoimentos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.card-depoimento {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-depoimento:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cabecalho-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-usuario {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-usuario {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+.comentario {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+/* =========================================
+   7. SEÇÃO FAQ
+   ========================================= */
+.secao-faq {
+  padding: 4rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.secao-faq h2 {
+  text-align: center;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  transition: border-color 0.2s;
+}
+
+.faq-item:hover {
+  border-color: var(--text-color);
+}
+
+.faq-pergunta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq-pergunta i {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.ativo .faq-pergunta i {
+  transform: rotate(180deg);
+}
+
+.faq-resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 1.5rem;
+}
+
+.faq-item.ativo .faq-resposta {
+  padding-bottom: 1.5rem;
+}
+
+.faq-resposta p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+/* =========================================
+   8. FOOTER
+   ========================================= */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4rem 5%;
+  margin-top:60px;
+  text-align: left;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover,
+.footer-contact a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-address {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin-top: 1rem;
+}
+
+/* =========================================
+   9. RESPONSIVIDADE
+   ========================================= */
+@media (max-width: 1024px) {
+  .nav-esquerda {
+    gap: 1.5rem;
+  }
+  .links-nav {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem;
+  }
+
+  .nav-esquerda {
+    gap: 1rem;
+  }
+
+  .links-nav {
+    display: none; /* Em um projeto real, substituir por menu hamburger */
+  }
+
+  .secao-hero {
+    padding: 4rem 1rem;
+  }
+
+  .secao-padrao {
+    padding: 3rem 1rem;
+  }
+
+  .grid-funcionamento, .grid-depoimentos {
+    grid-template-columns: 1fr;
+  }
+
+  .card-funcionamento, .card-depoimento {
+    padding: 1.5rem;
+  }
+
+  .footer-content {
+    text-align: center;
+    align-items: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+}
