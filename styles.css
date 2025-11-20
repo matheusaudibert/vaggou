@@ -116,7 +116,19 @@ body.modo-escuro .icone-logo {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 4rem 1rem 10rem 1rem;
+  padding: 9rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.secao-hero-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 1rem 4rem 1rem;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -128,6 +140,7 @@ body.modo-escuro .icone-logo {
   font-weight: 500;
   margin-bottom: 1.5rem;
   border: 1px solid var(--border-color);
+  box-shadow : 0 2px 2px rgba(0, 0, 0, 0.1);
   transition: background-color 0.2s;
   display: inline-flex;
   align-items: center;
@@ -139,8 +152,13 @@ body.modo-escuro .icone-logo {
   cursor: pointer;
 }
 
+.emoji-confetti {
+    font-size: 1.2rem;
+
+}
+
 h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -148,12 +166,31 @@ h1 {
 }
 
 p.subtitulo {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   color: var(--text-color);
   opacity: 0.7;
-  max-width: 600px;
+  max-width: 800px;
   margin-bottom: 2.5rem;
+}
+
+.emoji-flutuante {
+  display: inline-block; /* Necessário para aplicar transformações em elementos inline como span */
+  transform-origin: 50% 100%;
+}
+
+.emoji-flutuante:hover {
+  cursor: pointer;
+  animation: aceno 1.4s ease-in-out; /* Executa uma vez */
+}
+
+@keyframes aceno {
+  0% { transform: rotate(0deg); }
+  15%  { transform: rotate(-15deg); } /* Vai para a direita */
+  30% { transform: rotate(15deg); } /* Vai para a esquerda */
+  45% { transform: rotate(-15deg); } /* Volta ao centro e para */
+  60% { transform: rotate(15deg); } /* Volta ao centro e para */
+  85% { transform: rotate(0deg); } /* Volta ao centro e para */
 }
 
 .grupo-botoes {
