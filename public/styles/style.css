@@ -37,6 +37,16 @@ body {
   flex-direction: column;
 }
 
+/* Cursor padrão (default) → link.cur */
+body, * {
+  cursor: url('../cursors/link.cur'), auto;
+}
+
+/* Cursor pointer → pointer.cur */
+a, button, [role="button"], .btn, .clickable {
+  cursor: url('../cursors/pointer.cur'), pointer;
+}
+
 /* =========================================
    2. TIPOGRAFIA E ELEMENTOS GERAIS
    ========================================= */
@@ -594,6 +604,7 @@ footer {
   color: #ffffff;
   padding: 4rem 5%;
   text-align: left;
+  margin-top: auto;
 }
 
 .footer-content {
