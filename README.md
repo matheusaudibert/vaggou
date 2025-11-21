@@ -1,14 +1,14 @@
-# [Vaggou](https://vaggou.vercel.app)
-
-![IMAGEM](https://i.postimg.cc/6p3ySKvh/preview.png)
+# Vaggou
 
 O Vaggou é um portal moderno de vagas, atualizado diarimaneto, voltado exclusivamente para o **ecossistema de tecnologia**.
 Nosso objetivo é **conectar talentos a oportunidades reais, com transparência, clareza e foco na experiência do usuário**.
 
+[![IMAGEM](readme/preview.png)](https://vaggou.vercel.app)
+
 Além da listagem de vagas, oferecemos um recurso extra: a **JobLetters**, uma ferramenta onde o usuário informa seu número de WhatsApp e passa a **receber vagas diariamente no celular**, facilitando sua jornada profissional.
 
-_Este projeto foi desenvolvido como parte da Global Solution 2025/2 do 1º ano de Engenharia de Software da FIAP, dentro do tema O Futuro do Trabalho._
-
+> [!NOTE]
+> Este projeto foi desenvolvido como parte da [Global Solution](https://www.fiap.com.br/graduacao/global-solution) 2025/2 do 1º ano de Engenharia de Software da FIAP, dentro do tema **O Futuro do Trabalho**.
 
 ## Sumário
 
@@ -45,8 +45,15 @@ O Vaggou contribui ao:
 ## 🧩 Funcionalidades do MVP
 ✔ Página inicial apresentando o problema e a proposta  
 ✔ Listagem de vagas (com busca e destaque)  
+
+[![IMAGEM](readme/vagas.png)](https://vaggou.vercel.app)
+
 ✔ Página JobLetters com cadastro via WhatsApp  
+
+[![IMAGEM](readme/jobsletter.png)](https://vaggou.vercel.app)
+
 ✔ Design responsivo (mobile e desktop)  
+✔ Acessibilidade de página (modo escuro e modo claro)  
 ✔ Interações em JavaScript simulando funcionalidades  
 ✔ Navegação entre 3+ páginas  
 ✔ Protótipo funcional publicado (deploy)
