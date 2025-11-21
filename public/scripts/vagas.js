@@ -19,10 +19,7 @@ if (gridVagas) {
 
 async function carregarVagas() {
   try {
-    // Ajuste o caminho conforme necessário. Se estiver na pasta pages, sobe dois níveis.
-    // Se estiver rodando localmente sem servidor, o fetch pode ser bloqueado por CORS.
-    // Assumindo que o arquivo vagas.json está na raiz do projeto.
-    const response = await fetch('../../vagas.json');
+    const response = await fetch('../vagas.json');
     todasAsVagas = await response.json(); // Salva na variável global
 
     renderizarVagas(todasAsVagas);
@@ -155,10 +152,3 @@ if (modalOverlay) {
     }
   });
 }
-
-// Alert de envio de formulário da Jobsletter
-document.getElementById('form-jobsletter').addEventListener('submit', function (e) {
-  e.preventDefault();
-  alert('Inscrição realizada com sucesso! Em breve você receberá as vagas no seu WhatsApp.');
-  this.reset();
-});
