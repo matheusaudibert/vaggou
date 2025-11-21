@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaggou - Hub de Vagas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="/public/styles/style.css">
+</head>
+<body>
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="nav-esquerda">
+      <div class="logo"><a href="index.html">Vaggou</a></div>
+      <ul class="links-nav">
+        <li><a href="#" class="ativo">Vagas</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="time.html">Time</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="nav-direita">
+      <a href="https://github.com/FIAP09/vaggou-global-solution" target="_blank" class="btn-icone-nav" aria-label="Repositório GitHub">
+        <i class="ph ph-github-logo"></i>
+      </a>
+      <button class="btn-icone-nav" id="alternar-tema" aria-label="Alternar tema">
+        <i class="ph ph-sun icone-sol" style="display: none;"></i>
+        <i class="ph ph-moon icone-lua"></i>
+      </button>
+      <!-- Botão Menu Hambúrguer -->
+      <button class="btn-icone-nav btn-menu-mobile" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+  <main>
+    <section class="secao-paginas">
+      <header class="cabecalho">
+        <h1>Encontre sua próxima oportunidade 🚀</h1>
+        <p class="subtitulo">Explore as melhores vagas de tecnologia selecionadas para você.</p>
+      </header>
+
+      <!-- Filtros -->
+      <div class="filtros-container">
+        <div class="filtro-grupo">
+          <label for="filtro-titulo">Cargo</label>
+          <select id="filtro-titulo">
+            <option value="">Todos</option>
+            <option value="Desenvolvedor Front-End">Desenvolvedor Front-End</option>
+            <option value="Desenvolvedor Back-End">Desenvolvedor Back-End</option>
+            <option value="Desenvolvedor Full Stack">Desenvolvedor Full Stack</option>
+            <option value="Engenheiro de Software">Engenheiro de Software</option>
+            <option value="Analista de Dados">Analista de Dados</option>
+            <option value="Analista de Sistemas">Analista de Sistemas</option>
+            <option value="Engenheiro de Machine Learning">Engenheiro de Machine Learning</option>
+            <option value="Cientista de Dados">Cientista de Dados</option>
+            <option value="DevOps Engineer">DevOps Engineer</option>
+            <option value="Arquiteto de Soluções">Arquiteto de Soluções</option>
+            <option value="Analista de QA">Analista de QA</option>
+            <option value="Product Manager">Product Manager</option>
+            <option value="Analista de Segurança da Informação">Analista de Segurança da Informação</option>
+            <option value="Engenheiro de DevOps">Engenheiro de DevOps</option>
+            <option value="UX/UI Designer">UX/UI Designer</option>
+
+          </select>
+        </div>
+
+        <div class="filtro-grupo">
+          <label for="filtro-nivel">Senioridade</label>
+          <select id="filtro-nivel">
+            <option value="">Todas</option>
+            <option value="Estágio">Estágio</option>
+            <option value="Júnior">Júnior</option>
+            <option value="Pleno">Pleno</option>
+            <option value="Sênior">Sênior</option>
+          </select>
+        </div>
+
+        <div class="filtro-grupo">
+          <label for="filtro-modelo">Modelo</label>
+          <select id="filtro-modelo">
+            <option value="">Todos</option>
+            <option value="Remoto">Remoto</option>
+            <option value="Híbrido">Híbrido</option>
+            <option value="Presencial">Presencial</option>
+          </select>
+        </div>
+
+        <div class="filtro-grupo">
+          <label for="filtro-afirmativa">Vagas Afirmativas</label>
+          <select id="filtro-afirmativa">
+            <option value="">Todas</option>
+            <option value="Não afirmativas">Não afirmativas</option>
+            <option value="Mulheres">Mulheres</option>
+            <option value="Pessoas negras">Pessoas negras</option>
+            <option value="LGBTQIA+">LGBTQIA+</option>
+            <option value="Pessoas com deficiência">Pessoas com deficiência</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Grid onde as vagas serão injetadas via JS -->
+      <div id="grid-vagas" class="grid-vagas">
+        <!-- Cards serão gerados aqui -->
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE DETALHES DA VAGA -->
+
+  <div id="modal-vaga" class="modal-overlay">
+    <div class="modal-content">
+      <button class="fechar-modal" id="fechar-modal">&times;</button>
+      
+      <div class="modal-header">
+        <h2 id="modal-titulo">Título da Vaga</h2>
+        <span id="modal-empresa" class="modal-empresa">Empresa</span>
+      </div>
+
+      <div class="modal-tags" id="modal-tags">
+        <!-- Tags injetadas via JS -->
+      </div>
+
+      <div class="modal-info-grid">
+        <div class="info-item">
+          <i class="ph ph-briefcase"></i>
+          <span id="modal-nivel">Nível</span>
+        </div>
+        <div class="info-item">
+          <i class="ph ph-map-pin"></i>
+          <span id="modal-modelo">Modelo</span>
+        </div>
+        <div class="info-item">
+          <i class="ph ph-currency-dollar"></i>
+          <span id="modal-salario">Salário</span>
+        </div>
+      </div>
+
+      <div class="modal-descricao">
+        <h3>Descrição</h3>
+        <p id="modal-descricao">Descrição detalhada da vaga...</p>
+      </div>
+
+      <a href="#" id="modal-link" class="botao botao-primario full-width" target="_blank">
+        Candidatar-se agora
+        <i class="ph ph-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Vaggou</div>
+      <div class="footer-links">
+        Links: <a href="https://www.alura.com.br/">Alura</a> | <a href="https://www.fiap.com.br/">FIAP</a> | <a href="https://pm3.com.br/">PM3</a> | <a href="https://www.startse.com/">StartSe</a>
+      </div>
+      <div class="footer-contact">
+        Fale com o Grupo: <a href="mailto:contato@vaggou.com.br">contato@vaggou.com.br</a>
+      </div>
+      <div class="footer-address">
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/vagas.js"></script>
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/menu-hamburguer.js"></script>
+
+</body>
+</html>

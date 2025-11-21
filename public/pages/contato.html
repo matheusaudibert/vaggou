@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaggou - Contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="/public/styles/style.css">
+</head>
+<body>
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="nav-esquerda">
+      <div class="logo"><a href="index.html">Vaggou</a></div>
+      <ul class="links-nav">
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="time.html">Time</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+    </div>
+    <div class="nav-direita">
+      <a href="https://github.com/FIAP09/vaggou-global-solution" target="_blank" class="btn-icone-nav" aria-label="Repositório GitHub">
+        <i class="ph ph-github-logo"></i>
+      </a>
+      <button class="btn-icone-nav" id="alternar-tema" aria-label="Alternar tema">
+        <i class="ph ph-sun icone-sol" style="display: none;"></i>
+        <i class="ph ph-moon icone-lua"></i>
+      </button>
+      <!-- Botão Menu Hambúrguer -->
+      <button class="btn-icone-nav btn-menu-mobile" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+  <main>
+    <section class="secao-paginas">
+      <header class="cabecalho">
+        <h1>Fale com a gente 📬</h1>
+        <p class="subtitulo">Dúvidas, sugestões ou parcerias? Mande sua mensagem.</p>
+      </header>
+
+      <div class="container-jobsletter">
+        <form class="form-jobsletter" id="form-contato">
+          
+          <div class="grupo-input">
+            <label for="email">Seu melhor e-mail <span class="obrigatorio">*</span></label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+          </div>
+
+          <div class="grupo-input">
+            <label for="mensagem">Mensagem <span class="obrigatorio">*</span></label>
+            <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <div class="contador-caracteres" id="contador">0/500</div>
+          </div>
+
+          <button type="submit" class="botao botao-primario full-width">
+            Enviar mensagem
+            <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Vaggou</div>
+      <div class="footer-links">
+        Links: <a href="https://www.alura.com.br/">Alura</a> | <a href="https://www.fiap.com.br/">FIAP</a> | <a href="https://pm3.com.br/">PM3</a> | <a href="https://www.startse.com/">StartSe</a>
+      </div>
+      <div class="footer-contact">
+        Fale com o Grupo: <a href="mailto:contato@vaggou.com.br">contato@vaggou.com.br</a>
+      </div>
+      <div class="footer-address">
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/contato.js"></script>
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/menu-hamburguer.js"></script>
+
+</body>
+</html>

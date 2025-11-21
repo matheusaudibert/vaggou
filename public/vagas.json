@@ -1,0 +1,1841 @@
+[
+  {
+    "id": 1,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Sênior",
+    "empresa": "Petrobras",
+    "modelo": "Presencial",
+    "tags": [
+      "Go",
+      "Node.js",
+      "Git",
+      "Cloud",
+      "Java",
+      "Agile",
+      "Figma"
+    ],
+    "salario": "R$ 3.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Petrobras como Engenheiro de Machine Learning. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: uldwacdovz)"
+  },
+  {
+    "id": 2,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Sênior",
+    "empresa": "Microsoft",
+    "modelo": "Presencial",
+    "tags": [
+      "Agile",
+      "Java",
+      "AWS",
+      "Git",
+      "Testes Automatizados",
+      "Go",
+      "Machine Learning"
+    ],
+    "salario": "R$ 24.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Microsoft está com vaga aberta para Engenheiro de DevOps. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 2x4zf2co9g)"
+  },
+  {
+    "id": 3,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Netflix",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Testes Automatizados",
+      "Design Thinking"
+    ],
+    "salario": "R$ 18.700",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "Buscamos um(a) Arquiteto de Soluções talentoso(a) para a Netflix. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: gbbcmh583f)"
+  },
+  {
+    "id": 4,
+    "titulo": "UX/UI Designer",
+    "nivel": "Pleno",
+    "empresa": "Netflix",
+    "modelo": "Presencial",
+    "tags": [
+      "Docker",
+      "Agile",
+      "Cloud",
+      "CI/CD",
+      "React",
+      "Testes Automatizados",
+      "Scrum",
+      "Kubernetes"
+    ],
+    "salario": "R$ 8.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) UX/UI Designer para se juntar à nossa equipe na Netflix. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: 1zj565r8y5)"
+  },
+  {
+    "id": 5,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Sênior",
+    "empresa": "Amazon",
+    "modelo": "Híbrido",
+    "tags": [
+      "Kubernetes",
+      "C#",
+      "Java",
+      "Git",
+      "Node.js",
+      "Segurança",
+      "AWS"
+    ],
+    "salario": "R$ 12.100",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "A Amazon está com vaga aberta para Engenheiro de Software. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: ldfvbr9deh)"
+  },
+  {
+    "id": 6,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Estágio",
+    "empresa": "Amazon",
+    "modelo": "Remoto",
+    "tags": [
+      "Docker",
+      "Agile",
+      "Segurança",
+      "Go",
+      "JavaScript",
+      "Java",
+      "Node.js"
+    ],
+    "salario": "R$ 21.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Amazon como Engenheiro de Machine Learning. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 3z5ytnir2e)"
+  },
+  {
+    "id": 7,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Júnior",
+    "empresa": "Nvidia",
+    "modelo": "Remoto",
+    "tags": [
+      "Figma",
+      "React",
+      "Node.js",
+      "Kubernetes",
+      "C#",
+      "Cloud"
+    ],
+    "salario": "R$ 22.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Front-End para se juntar à nossa equipe na Nvidia. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: mjxhfk7rfp)"
+  },
+  {
+    "id": 8,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Pleno",
+    "empresa": "Microsoft",
+    "modelo": "Presencial",
+    "tags": [
+      "Figma",
+      "JavaScript",
+      "Node.js",
+      "React",
+      "CI/CD",
+      "Testes Automatizados",
+      "Java"
+    ],
+    "salario": "R$ 24.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Arquiteto de Soluções na Microsoft! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: c8i21pirh0)"
+  },
+  {
+    "id": 9,
+    "titulo": "Product Manager",
+    "nivel": "Pleno",
+    "empresa": "Uber",
+    "modelo": "Híbrido",
+    "tags": [
+      "C#",
+      "Machine Learning",
+      "JavaScript",
+      "Scrum",
+      "CI/CD",
+      "Testes Automatizados",
+      "TypeScript"
+    ],
+    "salario": "R$ 18.400",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Uber como Product Manager. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: imlmqd0mrk)"
+  },
+  {
+    "id": 10,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Sênior",
+    "empresa": "Magazine Luiza",
+    "modelo": "Presencial",
+    "tags": [
+      "Data Science",
+      "Design Thinking",
+      "Go",
+      "JavaScript",
+      "TypeScript",
+      "C#"
+    ],
+    "salario": "R$ 6.700",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Oportunidade para Analista de Segurança da Informação na Magazine Luiza! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: y8vprrx4ur)"
+  },
+  {
+    "id": 11,
+    "titulo": "Analista de QA",
+    "nivel": "Sênior",
+    "empresa": "Apple",
+    "modelo": "Híbrido",
+    "tags": [
+      "Cloud",
+      "Go",
+      "Figma",
+      "Segurança",
+      "Testes Automatizados"
+    ],
+    "salario": "R$ 8.400",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "Venha fazer parte do time de tecnologia da Apple como Analista de QA. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: o3ejgg72fl)"
+  },
+  {
+    "id": 12,
+    "titulo": "UX/UI Designer",
+    "nivel": "Júnior",
+    "empresa": "IBM",
+    "modelo": "Remoto",
+    "tags": [
+      "Machine Learning",
+      "Cloud",
+      "Data Science",
+      "Git",
+      "Testes Automatizados",
+      "TypeScript",
+      "Docker",
+      "Design Thinking"
+    ],
+    "salario": "R$ 3.000",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "A IBM está com vaga aberta para UX/UI Designer. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: cew559mwcy)"
+  },
+  {
+    "id": 13,
+    "titulo": "Cientista de Dados",
+    "nivel": "Sênior",
+    "empresa": "Vale",
+    "modelo": "Remoto",
+    "tags": [
+      "Figma",
+      "Linux",
+      "Kubernetes",
+      "CI/CD",
+      "Node.js"
+    ],
+    "salario": "R$ 9.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Cientista de Dados talentoso(a) para a Vale. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: klmtziid7h)"
+  },
+  {
+    "id": 14,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Cisco",
+    "modelo": "Remoto",
+    "tags": [
+      "Go",
+      "AWS",
+      "CI/CD",
+      "Linux",
+      "TypeScript",
+      "C#"
+    ],
+    "salario": "R$ 21.500",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Estamos buscando um(a) Arquiteto de Soluções para se juntar à nossa equipe na Cisco. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: 48bo5ar5io)"
+  },
+  {
+    "id": 15,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Estágio",
+    "empresa": "IBM",
+    "modelo": "Remoto",
+    "tags": [
+      "TypeScript",
+      "Git",
+      "Segurança",
+      "Agile",
+      "Figma",
+      "SQL"
+    ],
+    "salario": "R$ 12.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A IBM está com vaga aberta para Analista de Segurança da Informação. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 46lf7dgypg)"
+  },
+  {
+    "id": 16,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Pleno",
+    "empresa": "Meta",
+    "modelo": "Remoto",
+    "tags": [
+      "Java",
+      "C#",
+      "SQL",
+      "React",
+      "Cloud",
+      "Go",
+      "Linux"
+    ],
+    "salario": "R$ 21.800",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Oportunidade para Analista de Segurança da Informação na Meta! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: d9rm35cko0)"
+  },
+  {
+    "id": 17,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Sênior",
+    "empresa": "Microsoft",
+    "modelo": "Presencial",
+    "tags": [
+      "CI/CD",
+      "C#",
+      "Agile",
+      "Segurança",
+      "React",
+      "Design Thinking"
+    ],
+    "salario": "R$ 18.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Desenvolvedor Back-End talentoso(a) para a Microsoft. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: uv1khue7tp)"
+  },
+  {
+    "id": 18,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Júnior",
+    "empresa": "Itaú",
+    "modelo": "Híbrido",
+    "tags": [
+      "C#",
+      "Data Science",
+      "Git",
+      "Machine Learning",
+      "JavaScript",
+      "Figma",
+      "Java"
+    ],
+    "salario": "R$ 4.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Itaú como Engenheiro de DevOps. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: rhm7xdpnnm)"
+  },
+  {
+    "id": 19,
+    "titulo": "Product Manager",
+    "nivel": "Pleno",
+    "empresa": "Ambev",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Linux",
+      "Scrum"
+    ],
+    "salario": "R$ 22.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Ambev está com vaga aberta para Product Manager. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 5n9vmh53v1)"
+  },
+  {
+    "id": 20,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Estágio",
+    "empresa": "Petrobras",
+    "modelo": "Presencial",
+    "tags": [
+      "Scrum",
+      "Docker",
+      "CI/CD",
+      "JavaScript",
+      "Cloud",
+      "C#"
+    ],
+    "salario": "R$ 23.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Full Stack para se juntar à nossa equipe na Petrobras. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: cw9c6nbaz0)"
+  },
+  {
+    "id": 21,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Sênior",
+    "empresa": "Apple",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "Testes Automatizados",
+      "Machine Learning",
+      "JavaScript",
+      "Python",
+      "Java",
+      "Segurança",
+      "Kubernetes"
+    ],
+    "salario": "R$ 18.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Engenheiro de DevOps para se juntar à nossa equipe na Apple. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: ydfkbrr0rq)"
+  },
+  {
+    "id": 22,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "Amazon",
+    "modelo": "Presencial",
+    "tags": [
+      "Go",
+      "React",
+      "Testes Automatizados",
+      "Scrum"
+    ],
+    "salario": "R$ 20.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Engenheiro de DevOps na Amazon! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: hpcfwwma1q)"
+  },
+  {
+    "id": 23,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Uber",
+    "modelo": "Remoto",
+    "tags": [
+      "Segurança",
+      "Linux",
+      "Python"
+    ],
+    "salario": "R$ 19.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Arquiteto de Soluções para se juntar à nossa equipe na Uber. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: ep10h30vlv)"
+  },
+  {
+    "id": 24,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Estágio",
+    "empresa": "SAP",
+    "modelo": "Híbrido",
+    "tags": [
+      "Go",
+      "Linux",
+      "React",
+      "Python",
+      "Agile",
+      "Java",
+      "SQL"
+    ],
+    "salario": "R$ 16.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Desenvolvedor Full Stack na SAP! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: h44ew2b0k7)"
+  },
+  {
+    "id": 25,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Júnior",
+    "empresa": "Nvidia",
+    "modelo": "Remoto",
+    "tags": [
+      "React",
+      "Linux",
+      "Cloud",
+      "Java"
+    ],
+    "salario": "R$ 12.500",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Estamos buscando um(a) Desenvolvedor Full Stack para se juntar à nossa equipe na Nvidia. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: 8lbqgx4f5e)"
+  },
+  {
+    "id": 26,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Estágio",
+    "empresa": "Meta",
+    "modelo": "Híbrido",
+    "tags": [
+      "Figma",
+      "Data Science",
+      "Java",
+      "React",
+      "Linux"
+    ],
+    "salario": "R$ 19.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Engenheiro de DevOps para se juntar à nossa equipe na Meta. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: 9ljheg3ice)"
+  },
+  {
+    "id": 27,
+    "titulo": "Product Manager",
+    "nivel": "Pleno",
+    "empresa": "Spotify",
+    "modelo": "Remoto",
+    "tags": [
+      "AWS",
+      "Agile",
+      "Scrum",
+      "Data Science",
+      "Kubernetes",
+      "React",
+      "Node.js",
+      "JavaScript"
+    ],
+    "salario": "R$ 3.300",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Product Manager na Spotify! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: 71eyf0ulwk)"
+  },
+  {
+    "id": 28,
+    "titulo": "Cientista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Apple",
+    "modelo": "Presencial",
+    "tags": [
+      "JavaScript",
+      "Go",
+      "CI/CD"
+    ],
+    "salario": "R$ 22.400",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "Buscamos um(a) Cientista de Dados talentoso(a) para a Apple. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: masplzaqo6)"
+  },
+  {
+    "id": 29,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Estágio",
+    "empresa": "Ambev",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Go",
+      "Node.js",
+      "Segurança"
+    ],
+    "salario": "R$ 23.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Desenvolvedor Full Stack na Ambev! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: hizmqw2svw)"
+  },
+  {
+    "id": 30,
+    "titulo": "Analista de QA",
+    "nivel": "Júnior",
+    "empresa": "Spotify",
+    "modelo": "Presencial",
+    "tags": [
+      "Go",
+      "SQL",
+      "C#"
+    ],
+    "salario": "R$ 20.200",
+    "link": "#",
+    "afirmativa": "Mulheres",
+    "descricao": "Estamos buscando um(a) Analista de QA para se juntar à nossa equipe na Spotify. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: ddtsn3ydtp)"
+  },
+  {
+    "id": 31,
+    "titulo": "Analista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Petrobras",
+    "modelo": "Presencial",
+    "tags": [
+      "Docker",
+      "Node.js",
+      "TypeScript",
+      "JavaScript",
+      "CI/CD",
+      "SQL",
+      "Segurança",
+      "Design Thinking"
+    ],
+    "salario": "R$ 3.400",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Petrobras como Analista de Dados. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: hpt48bzqok)"
+  },
+  {
+    "id": 32,
+    "titulo": "UX/UI Designer",
+    "nivel": "Sênior",
+    "empresa": "Ambev",
+    "modelo": "Presencial",
+    "tags": [
+      "Cloud",
+      "Figma",
+      "Python"
+    ],
+    "salario": "R$ 9.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) UX/UI Designer talentoso(a) para a Ambev. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: j7p18ix523)"
+  },
+  {
+    "id": 33,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Estágio",
+    "empresa": "Adobe",
+    "modelo": "Presencial",
+    "tags": [
+      "Docker",
+      "TypeScript",
+      "Node.js",
+      "SQL",
+      "Design Thinking",
+      "Linux",
+      "Agile",
+      "React"
+    ],
+    "salario": "R$ 6.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Adobe está com vaga aberta para Engenheiro de DevOps. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: p7zf5j2zsn)"
+  },
+  {
+    "id": 34,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "IBM",
+    "modelo": "Híbrido",
+    "tags": [
+      "Cloud",
+      "Machine Learning",
+      "Go",
+      "Git",
+      "Node.js",
+      "C#"
+    ],
+    "salario": "R$ 19.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Engenheiro de DevOps talentoso(a) para a IBM. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: 5bhbc87g9f)"
+  },
+  {
+    "id": 35,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Estágio",
+    "empresa": "Adobe",
+    "modelo": "Remoto",
+    "tags": [
+      "Cloud",
+      "JavaScript",
+      "Testes Automatizados",
+      "TypeScript",
+      "Scrum"
+    ],
+    "salario": "R$ 22.300",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Engenheiro de Software talentoso(a) para a Adobe. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: 9c6e8hkhe0)"
+  },
+  {
+    "id": 36,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Estágio",
+    "empresa": "Amazon",
+    "modelo": "Híbrido",
+    "tags": [
+      "Machine Learning",
+      "Scrum",
+      "Java",
+      "Git"
+    ],
+    "salario": "R$ 24.100",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Venha fazer parte do time de tecnologia da Amazon como Desenvolvedor Full Stack. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 1azkyu9wx5)"
+  },
+  {
+    "id": 37,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Sênior",
+    "empresa": "Samsung",
+    "modelo": "Presencial",
+    "tags": [
+      "SQL",
+      "Segurança",
+      "Agile",
+      "Testes Automatizados",
+      "Git",
+      "Scrum",
+      "C#",
+      "JavaScript"
+    ],
+    "salario": "R$ 17.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Engenheiro de DevOps na Samsung! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: k60x090r38)"
+  },
+  {
+    "id": 38,
+    "titulo": "DevOps Engineer",
+    "nivel": "Estágio",
+    "empresa": "SAP",
+    "modelo": "Presencial",
+    "tags": [
+      "SQL",
+      "CI/CD",
+      "Docker",
+      "Java"
+    ],
+    "salario": "R$ 14.000",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Buscamos um(a) DevOps Engineer talentoso(a) para a SAP. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: 3asp24cbky)"
+  },
+  {
+    "id": 39,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "Nubank",
+    "modelo": "Remoto",
+    "tags": [
+      "Data Science",
+      "Python",
+      "SQL",
+      "Figma",
+      "Segurança",
+      "CI/CD",
+      "Kubernetes",
+      "Docker"
+    ],
+    "salario": "R$ 15.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Engenheiro de DevOps na Nubank! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: ye9mjgc3aq)"
+  },
+  {
+    "id": 40,
+    "titulo": "Product Manager",
+    "nivel": "Pleno",
+    "empresa": "Spotify",
+    "modelo": "Presencial",
+    "tags": [
+      "TypeScript",
+      "C#",
+      "SQL",
+      "Docker",
+      "Segurança",
+      "React",
+      "Node.js",
+      "Data Science"
+    ],
+    "salario": "R$ 16.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Product Manager para se juntar à nossa equipe na Spotify. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: j8f1gkgr69)"
+  },
+  {
+    "id": 41,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Estágio",
+    "empresa": "Samsung",
+    "modelo": "Remoto",
+    "tags": [
+      "C#",
+      "Go",
+      "Testes Automatizados",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "salario": "R$ 11.900",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Engenheiro de Machine Learning talentoso(a) para a Samsung. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: dvyoh26ouy)"
+  },
+  {
+    "id": 42,
+    "titulo": "Analista de Dados",
+    "nivel": "Pleno",
+    "empresa": "Meta",
+    "modelo": "Presencial",
+    "tags": [
+      "Segurança",
+      "JavaScript",
+      "Testes Automatizados",
+      "Node.js",
+      "TypeScript",
+      "AWS",
+      "CI/CD"
+    ],
+    "salario": "R$ 5.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Analista de Dados na Meta! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: w3264xw5ad)"
+  },
+  {
+    "id": 43,
+    "titulo": "Product Manager",
+    "nivel": "Pleno",
+    "empresa": "Amazon",
+    "modelo": "Remoto",
+    "tags": [
+      "TypeScript",
+      "AWS",
+      "Scrum",
+      "Go",
+      "Kubernetes",
+      "Segurança",
+      "Figma"
+    ],
+    "salario": "R$ 24.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Product Manager talentoso(a) para a Amazon. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: 1zmpc80xow)"
+  },
+  {
+    "id": 44,
+    "titulo": "Analista de QA",
+    "nivel": "Estágio",
+    "empresa": "Adobe",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Cloud",
+      "C#",
+      "Agile",
+      "Data Science",
+      "Kubernetes"
+    ],
+    "salario": "R$ 20.200",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Buscamos um(a) Analista de QA talentoso(a) para a Adobe. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: 6s3yhs6i3t)"
+  },
+  {
+    "id": 45,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Sênior",
+    "empresa": "Tesla",
+    "modelo": "Presencial",
+    "tags": [
+      "Java",
+      "Kubernetes",
+      "TypeScript",
+      "C#",
+      "Docker",
+      "Segurança",
+      "Git",
+      "Testes Automatizados"
+    ],
+    "salario": "R$ 13.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Engenheiro de Machine Learning talentoso(a) para a Tesla. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: fk24f29s67)"
+  },
+  {
+    "id": 46,
+    "titulo": "Analista de QA",
+    "nivel": "Pleno",
+    "empresa": "Adobe",
+    "modelo": "Híbrido",
+    "tags": [
+      "Docker",
+      "Python",
+      "Design Thinking",
+      "C#",
+      "Node.js",
+      "Agile",
+      "Figma",
+      "Go"
+    ],
+    "salario": "R$ 12.500",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Buscamos um(a) Analista de QA talentoso(a) para a Adobe. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: q1qznfxc1a)"
+  },
+  {
+    "id": 47,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Pleno",
+    "empresa": "IBM",
+    "modelo": "Remoto",
+    "tags": [
+      "Git",
+      "Go",
+      "Linux",
+      "C#",
+      "Design Thinking",
+      "Cloud",
+      "Kubernetes",
+      "Segurança"
+    ],
+    "salario": "R$ 6.700",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "Venha fazer parte do time de tecnologia da IBM como Desenvolvedor Front-End. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: j9cf03tou6)"
+  },
+  {
+    "id": 48,
+    "titulo": "Desenvolvedor Back-End",
+    "nivel": "Júnior",
+    "empresa": "Samsung",
+    "modelo": "Híbrido",
+    "tags": [
+      "SQL",
+      "JavaScript",
+      "Machine Learning",
+      "Scrum"
+    ],
+    "salario": "R$ 16.500",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Back-End para se juntar à nossa equipe na Samsung. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: pz284tksu7)"
+  },
+  {
+    "id": 49,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Uber",
+    "modelo": "Remoto",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "Node.js",
+      "Go",
+      "C#",
+      "JavaScript",
+      "Cloud"
+    ],
+    "salario": "R$ 22.900",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Uber como Arquiteto de Soluções. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: w3of4viqd4)"
+  },
+  {
+    "id": 50,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Sênior",
+    "empresa": "Meta",
+    "modelo": "Remoto",
+    "tags": [
+      "Node.js",
+      "React",
+      "JavaScript",
+      "Data Science",
+      "Go"
+    ],
+    "salario": "R$ 8.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Meta está com vaga aberta para Engenheiro de Software. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 2sq1o27583)"
+  },
+  {
+    "id": 51,
+    "titulo": "Analista de Dados",
+    "nivel": "Júnior",
+    "empresa": "IBM",
+    "modelo": "Remoto",
+    "tags": [
+      "Design Thinking",
+      "CI/CD",
+      "SQL"
+    ],
+    "salario": "R$ 12.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Analista de Dados talentoso(a) para a IBM. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: gn057ytved)"
+  },
+  {
+    "id": 52,
+    "titulo": "Product Manager",
+    "nivel": "Estágio",
+    "empresa": "Itaú",
+    "modelo": "Híbrido",
+    "tags": [
+      "JavaScript",
+      "Agile",
+      "Docker"
+    ],
+    "salario": "R$ 20.000",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Oportunidade para Product Manager na Itaú! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: ps8nzd0ee5)"
+  },
+  {
+    "id": 53,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Estágio",
+    "empresa": "Samsung",
+    "modelo": "Remoto",
+    "tags": [
+      "Cloud",
+      "Python",
+      "Machine Learning"
+    ],
+    "salario": "R$ 14.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Front-End para se juntar à nossa equipe na Samsung. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: knfa0vj6m2)"
+  },
+  {
+    "id": 54,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Sênior",
+    "empresa": "Microsoft",
+    "modelo": "Híbrido",
+    "tags": [
+      "AWS",
+      "CI/CD",
+      "Java",
+      "Python"
+    ],
+    "salario": "R$ 24.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Analista de Segurança da Informação na Microsoft! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: yslhfaavls)"
+  },
+  {
+    "id": 55,
+    "titulo": "DevOps Engineer",
+    "nivel": "Júnior",
+    "empresa": "Microsoft",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Python",
+      "Data Science",
+      "Cloud"
+    ],
+    "salario": "R$ 19.800",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Oportunidade para DevOps Engineer na Microsoft! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: opk54qqw7t)"
+  },
+  {
+    "id": 56,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Sênior",
+    "empresa": "Vale",
+    "modelo": "Remoto",
+    "tags": [
+      "Kubernetes",
+      "Agile",
+      "Segurança",
+      "Java",
+      "JavaScript"
+    ],
+    "salario": "R$ 12.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Analista de Sistemas talentoso(a) para a Vale. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: g705ju1sq0)"
+  },
+  {
+    "id": 57,
+    "titulo": "Analista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Salesforce",
+    "modelo": "Remoto",
+    "tags": [
+      "Data Science",
+      "React",
+      "Agile",
+      "Machine Learning",
+      "Go"
+    ],
+    "salario": "R$ 3.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Salesforce está com vaga aberta para Analista de Dados. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 6iruuu60l2)"
+  },
+  {
+    "id": 58,
+    "titulo": "Analista de QA",
+    "nivel": "Estágio",
+    "empresa": "Microsoft",
+    "modelo": "Remoto",
+    "tags": [
+      "Scrum",
+      "Node.js",
+      "CI/CD",
+      "Cloud",
+      "Kubernetes",
+      "Design Thinking",
+      "React",
+      "Linux"
+    ],
+    "salario": "R$ 10.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Analista de QA talentoso(a) para a Microsoft. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: wnie3hr2h9)"
+  },
+  {
+    "id": 59,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Sênior",
+    "empresa": "Meta",
+    "modelo": "Remoto",
+    "tags": [
+      "Design Thinking",
+      "C#",
+      "SQL"
+    ],
+    "salario": "R$ 18.500",
+    "link": "#",
+    "afirmativa": "Pessoas com deficiência",
+    "descricao": "Buscamos um(a) Engenheiro de Machine Learning talentoso(a) para a Meta. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: va03kbwig1)"
+  },
+  {
+    "id": 60,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Pleno",
+    "empresa": "Localiza",
+    "modelo": "Presencial",
+    "tags": [
+      "Cloud",
+      "CI/CD",
+      "Testes Automatizados",
+      "SQL",
+      "Scrum",
+      "Agile"
+    ],
+    "salario": "R$ 9.500",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Localiza como Arquiteto de Soluções. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 3bhgsklfgb)"
+  },
+  {
+    "id": 61,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Estágio",
+    "empresa": "Tesla",
+    "modelo": "Presencial",
+    "tags": [
+      "AWS",
+      "Testes Automatizados",
+      "Python",
+      "Git",
+      "CI/CD",
+      "Design Thinking",
+      "Go",
+      "Node.js"
+    ],
+    "salario": "R$ 11.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Arquiteto de Soluções para se juntar à nossa equipe na Tesla. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: to8mnd1k3j)"
+  },
+  {
+    "id": 62,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Pleno",
+    "empresa": "Dell",
+    "modelo": "Presencial",
+    "tags": [
+      "Machine Learning",
+      "Git",
+      "CI/CD",
+      "Scrum",
+      "Cloud",
+      "React",
+      "Testes Automatizados"
+    ],
+    "salario": "R$ 8.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Dell está com vaga aberta para Analista de Segurança da Informação. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: hxxz8timq7)"
+  },
+  {
+    "id": 63,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Sênior",
+    "empresa": "Petrobras",
+    "modelo": "Remoto",
+    "tags": [
+      "Data Science",
+      "Testes Automatizados",
+      "Figma",
+      "Go",
+      "JavaScript",
+      "Node.js",
+      "Linux"
+    ],
+    "salario": "R$ 8.600",
+    "link": "#",
+    "afirmativa": "Mulheres",
+    "descricao": "Venha fazer parte do time de tecnologia da Petrobras como Analista de Sistemas. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: loye7xc8xt)"
+  },
+  {
+    "id": 64,
+    "titulo": "Cientista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Intel",
+    "modelo": "Remoto",
+    "tags": [
+      "Design Thinking",
+      "Docker",
+      "AWS"
+    ],
+    "salario": "R$ 4.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Cientista de Dados talentoso(a) para a Intel. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: o5kjaxbh3f)"
+  },
+  {
+    "id": 65,
+    "titulo": "Product Manager",
+    "nivel": "Estágio",
+    "empresa": "Magazine Luiza",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Machine Learning",
+      "Segurança",
+      "Design Thinking"
+    ],
+    "salario": "R$ 8.500",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Buscamos um(a) Product Manager talentoso(a) para a Magazine Luiza. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: vxn5j1xqyp)"
+  },
+  {
+    "id": 66,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Sênior",
+    "empresa": "Ambev",
+    "modelo": "Híbrido",
+    "tags": [
+      "CI/CD",
+      "Cloud",
+      "Segurança",
+      "Scrum",
+      "Git",
+      "Python"
+    ],
+    "salario": "R$ 23.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Ambev está com vaga aberta para Desenvolvedor Front-End. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: n2278e3gal)"
+  },
+  {
+    "id": 67,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Estágio",
+    "empresa": "Nubank",
+    "modelo": "Remoto",
+    "tags": [
+      "JavaScript",
+      "Git",
+      "Node.js"
+    ],
+    "salario": "R$ 22.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Engenheiro de DevOps na Nubank! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: hra7gsj4lr)"
+  },
+  {
+    "id": 68,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Pleno",
+    "empresa": "Nubank",
+    "modelo": "Híbrido",
+    "tags": [
+      "Node.js",
+      "Kubernetes",
+      "Linux",
+      "Testes Automatizados"
+    ],
+    "salario": "R$ 6.400",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Arquiteto de Soluções na Nubank! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: oxl7625ro6)"
+  },
+  {
+    "id": 69,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Estágio",
+    "empresa": "Oracle",
+    "modelo": "Híbrido",
+    "tags": [
+      "Kubernetes",
+      "Testes Automatizados",
+      "Segurança",
+      "Go",
+      "Agile",
+      "Figma",
+      "Cloud"
+    ],
+    "salario": "R$ 3.300",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Estamos buscando um(a) Desenvolvedor Front-End para se juntar à nossa equipe na Oracle. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: kfxe429i2m)"
+  },
+  {
+    "id": 70,
+    "titulo": "DevOps Engineer",
+    "nivel": "Júnior",
+    "empresa": "Salesforce",
+    "modelo": "Presencial",
+    "tags": [
+      "Go",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "salario": "R$ 16.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Salesforce como DevOps Engineer. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: tuaa8dwxc2)"
+  },
+  {
+    "id": 71,
+    "titulo": "Analista de QA",
+    "nivel": "Estágio",
+    "empresa": "Spotify",
+    "modelo": "Presencial",
+    "tags": [
+      "Segurança",
+      "Cloud",
+      "Git",
+      "Design Thinking",
+      "Machine Learning"
+    ],
+    "salario": "R$ 6.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Spotify como Analista de QA. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 7f3zda2mah)"
+  },
+  {
+    "id": 72,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Salesforce",
+    "modelo": "Remoto",
+    "tags": [
+      "Machine Learning",
+      "Testes Automatizados",
+      "AWS",
+      "Go",
+      "C#",
+      "Node.js",
+      "Cloud"
+    ],
+    "salario": "R$ 5.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Arquiteto de Soluções na Salesforce! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: hrk6gcojh4)"
+  },
+  {
+    "id": 73,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "Bradesco",
+    "modelo": "Presencial",
+    "tags": [
+      "Node.js",
+      "Scrum",
+      "Kubernetes",
+      "JavaScript",
+      "Testes Automatizados",
+      "C#",
+      "AWS"
+    ],
+    "salario": "R$ 15.300",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Engenheiro de DevOps para se juntar à nossa equipe na Bradesco. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: w2gp3nqwq0)"
+  },
+  {
+    "id": 74,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Estágio",
+    "empresa": "Adobe",
+    "modelo": "Remoto",
+    "tags": [
+      "Kubernetes",
+      "Testes Automatizados",
+      "Figma",
+      "Cloud"
+    ],
+    "salario": "R$ 7.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Adobe como Desenvolvedor Full Stack. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: oc0gom5c26)"
+  },
+  {
+    "id": 75,
+    "titulo": "Cientista de Dados",
+    "nivel": "Pleno",
+    "empresa": "Tesla",
+    "modelo": "Remoto",
+    "tags": [
+      "Machine Learning",
+      "Testes Automatizados",
+      "CI/CD",
+      "AWS"
+    ],
+    "salario": "R$ 24.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Tesla como Cientista de Dados. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: sjop4rt13n)"
+  },
+  {
+    "id": 76,
+    "titulo": "Cientista de Dados",
+    "nivel": "Estágio",
+    "empresa": "Uber",
+    "modelo": "Híbrido",
+    "tags": [
+      "Git",
+      "Java",
+      "CI/CD"
+    ],
+    "salario": "R$ 13.500",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Cientista de Dados talentoso(a) para a Uber. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: famifl5ykr)"
+  },
+  {
+    "id": 77,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Sênior",
+    "empresa": "Magazine Luiza",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Git",
+      "TypeScript",
+      "Python",
+      "Go",
+      "CI/CD",
+      "Figma"
+    ],
+    "salario": "R$ 22.700",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Full Stack para se juntar à nossa equipe na Magazine Luiza. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: tq3y4f8i7d)"
+  },
+  {
+    "id": 78,
+    "titulo": "Arquiteto de Soluções",
+    "nivel": "Sênior",
+    "empresa": "Uber",
+    "modelo": "Remoto",
+    "tags": [
+      "Docker",
+      "C#",
+      "CI/CD"
+    ],
+    "salario": "R$ 23.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Arquiteto de Soluções para se juntar à nossa equipe na Uber. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: di699rkfeb)"
+  },
+  {
+    "id": 79,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Estágio",
+    "empresa": "Nvidia",
+    "modelo": "Remoto",
+    "tags": [
+      "Linux",
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "salario": "R$ 25.000",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Venha fazer parte do time de tecnologia da Nvidia como Analista de Segurança da Informação. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 0kwhqwzgxy)"
+  },
+  {
+    "id": 80,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Estágio",
+    "empresa": "Cisco",
+    "modelo": "Remoto",
+    "tags": [
+      "CI/CD",
+      "Node.js",
+      "Go"
+    ],
+    "salario": "R$ 6.400",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Cisco está com vaga aberta para Analista de Sistemas. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 3rsup7s9ta)"
+  },
+  {
+    "id": 81,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Sênior",
+    "empresa": "Microsoft",
+    "modelo": "Presencial",
+    "tags": [
+      "Node.js",
+      "AWS",
+      "JavaScript",
+      "Cloud",
+      "SQL",
+      "Agile",
+      "Segurança",
+      "C#"
+    ],
+    "salario": "R$ 12.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Analista de Segurança da Informação para se juntar à nossa equipe na Microsoft. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: xxgdmqfy57)"
+  },
+  {
+    "id": 82,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Sênior",
+    "empresa": "Bradesco",
+    "modelo": "Híbrido",
+    "tags": [
+      "Java",
+      "SQL",
+      "Kubernetes",
+      "Data Science",
+      "TypeScript"
+    ],
+    "salario": "R$ 20.400",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Engenheiro de DevOps na Bradesco! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: k6gguvue5z)"
+  },
+  {
+    "id": 83,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "IBM",
+    "modelo": "Híbrido",
+    "tags": [
+      "Testes Automatizados",
+      "Node.js",
+      "C#"
+    ],
+    "salario": "R$ 7.500",
+    "link": "#",
+    "afirmativa": "Pessoas negras",
+    "descricao": "Buscamos um(a) Engenheiro de DevOps talentoso(a) para a IBM. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: a7vq2crh4i)"
+  },
+  {
+    "id": 84,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Sênior",
+    "empresa": "SAP",
+    "modelo": "Híbrido",
+    "tags": [
+      "Linux",
+      "Docker",
+      "AWS",
+      "Testes Automatizados",
+      "TypeScript"
+    ],
+    "salario": "R$ 24.700",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Buscamos um(a) Analista de Segurança da Informação talentoso(a) para a SAP. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: zm95lh58em)"
+  },
+  {
+    "id": 85,
+    "titulo": "Analista de Segurança da Informação",
+    "nivel": "Estágio",
+    "empresa": "IBM",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Java",
+      "Figma",
+      "Node.js",
+      "Cloud"
+    ],
+    "salario": "R$ 8.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Analista de Segurança da Informação talentoso(a) para a IBM. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: xt42nd814t)"
+  },
+  {
+    "id": 86,
+    "titulo": "Cientista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Salesforce",
+    "modelo": "Presencial",
+    "tags": [
+      "C#",
+      "Agile",
+      "Go",
+      "Node.js",
+      "JavaScript",
+      "Machine Learning",
+      "Docker"
+    ],
+    "salario": "R$ 5.300",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Salesforce está com vaga aberta para Cientista de Dados. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: bu0h7n6me8)"
+  },
+  {
+    "id": 87,
+    "titulo": "Cientista de Dados",
+    "nivel": "Sênior",
+    "empresa": "Magazine Luiza",
+    "modelo": "Presencial",
+    "tags": [
+      "CI/CD",
+      "Python",
+      "Design Thinking",
+      "Testes Automatizados",
+      "C#"
+    ],
+    "salario": "R$ 15.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Cientista de Dados na Magazine Luiza! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: 6as067s7ox)"
+  },
+  {
+    "id": 88,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Sênior",
+    "empresa": "Tesla",
+    "modelo": "Híbrido",
+    "tags": [
+      "Data Science",
+      "Python",
+      "Cloud",
+      "Java",
+      "Scrum",
+      "C#"
+    ],
+    "salario": "R$ 8.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Tesla está com vaga aberta para Analista de Sistemas. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: pho6c5dje6)"
+  },
+  {
+    "id": 89,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Júnior",
+    "empresa": "Amazon",
+    "modelo": "Híbrido",
+    "tags": [
+      "Testes Automatizados",
+      "Figma",
+      "Scrum",
+      "Cloud",
+      "Docker",
+      "CI/CD"
+    ],
+    "salario": "R$ 14.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Amazon está com vaga aberta para Engenheiro de Machine Learning. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: 3j5899h8wh)"
+  },
+  {
+    "id": 90,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Júnior",
+    "empresa": "Petrobras",
+    "modelo": "Remoto",
+    "tags": [
+      "Scrum",
+      "SQL",
+      "Node.js",
+      "Linux",
+      "Java",
+      "CI/CD",
+      "Docker",
+      "Kubernetes"
+    ],
+    "salario": "R$ 8.800",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Desenvolvedor Full Stack para se juntar à nossa equipe na Petrobras. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: op3g0nzg9k)"
+  },
+  {
+    "id": 91,
+    "titulo": "Analista de Sistemas",
+    "nivel": "Sênior",
+    "empresa": "HP",
+    "modelo": "Híbrido",
+    "tags": [
+      "Go",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "salario": "R$ 24.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Analista de Sistemas para se juntar à nossa equipe na HP. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: n9pptrlc0u)"
+  },
+  {
+    "id": 92,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Pleno",
+    "empresa": "Nvidia",
+    "modelo": "Remoto",
+    "tags": [
+      "CI/CD",
+      "Machine Learning",
+      "Scrum",
+      "Git",
+      "Cloud",
+      "Node.js",
+      "Agile",
+      "Python"
+    ],
+    "salario": "R$ 17.400",
+    "link": "#",
+    "afirmativa": "LGBTQIA+",
+    "descricao": "Estamos buscando um(a) Engenheiro de Software para se juntar à nossa equipe na Nvidia. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: e52jnfi72f)"
+  },
+  {
+    "id": 93,
+    "titulo": "Cientista de Dados",
+    "nivel": "Júnior",
+    "empresa": "Nvidia",
+    "modelo": "Híbrido",
+    "tags": [
+      "Linux",
+      "Figma",
+      "Java",
+      "Design Thinking",
+      "CI/CD",
+      "Machine Learning",
+      "React",
+      "Scrum"
+    ],
+    "salario": "R$ 24.100",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Cientista de Dados talentoso(a) para a Nvidia. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: pe1q8rhym9)"
+  },
+  {
+    "id": 94,
+    "titulo": "Engenheiro de DevOps",
+    "nivel": "Pleno",
+    "empresa": "Intel",
+    "modelo": "Remoto",
+    "tags": [
+      "Cloud",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "CI/CD"
+    ],
+    "salario": "R$ 13.300",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Buscamos um(a) Engenheiro de DevOps talentoso(a) para a Intel. Você irá trabalhar com tecnologias de ponta, contribuindo para a arquitetura e escalabilidade dos nossos sistemas. Valorizamos a autonomia e a capacidade de propor novas soluções. (Ref: rakkafor30)"
+  },
+  {
+    "id": 95,
+    "titulo": "Product Manager",
+    "nivel": "Estágio",
+    "empresa": "Nvidia",
+    "modelo": "Presencial",
+    "tags": [
+      "JavaScript",
+      "Machine Learning",
+      "Java",
+      "SQL",
+      "C#"
+    ],
+    "salario": "R$ 11.200",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Nvidia como Product Manager. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: xclaw2gayn)"
+  },
+  {
+    "id": 96,
+    "titulo": "Engenheiro de Machine Learning",
+    "nivel": "Júnior",
+    "empresa": "Petrobras",
+    "modelo": "Remoto",
+    "tags": [
+      "Kubernetes",
+      "Linux",
+      "Design Thinking",
+      "Cloud"
+    ],
+    "salario": "R$ 11.000",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Estamos buscando um(a) Engenheiro de Machine Learning para se juntar à nossa equipe na Petrobras. Você será responsável por desenvolver e manter soluções inovadoras, garantindo a qualidade e performance do nosso produto. É essencial ter paixão por tecnologia e vontade de aprender. (Ref: zozvgmk821)"
+  },
+  {
+    "id": 97,
+    "titulo": "Desenvolvedor Front-End",
+    "nivel": "Sênior",
+    "empresa": "IBM",
+    "modelo": "Híbrido",
+    "tags": [
+      "React",
+      "Docker",
+      "Machine Learning",
+      "Git",
+      "AWS",
+      "Java",
+      "Python",
+      "Agile"
+    ],
+    "salario": "R$ 24.500",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Oportunidade para Desenvolvedor Front-End na IBM! Procuramos um profissional proativo para atuar em projetos desafiadores. As atividades incluem análise de requisitos, codificação, testes e implantação. Experiência prévia na área é um diferencial. (Ref: acptddixl3)"
+  },
+  {
+    "id": 98,
+    "titulo": "Engenheiro de Software",
+    "nivel": "Júnior",
+    "empresa": "Spotify",
+    "modelo": "Remoto",
+    "tags": [
+      "CI/CD",
+      "Python",
+      "Kubernetes",
+      "Figma"
+    ],
+    "salario": "R$ 12.600",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "Venha fazer parte do time de tecnologia da Spotify como Engenheiro de Software. Sua missão será transformar ideias em realidade, utilizando as melhores práticas de desenvolvimento. Buscamos alguém com forte senso de colaboração e foco em resultados. (Ref: 2ngy47aptn)"
+  },
+  {
+    "id": 99,
+    "titulo": "Desenvolvedor Full Stack",
+    "nivel": "Júnior",
+    "empresa": "Oracle",
+    "modelo": "Híbrido",
+    "tags": [
+      "Data Science",
+      "Scrum",
+      "TypeScript",
+      "Agile",
+      "Java",
+      "AWS"
+    ],
+    "salario": "R$ 5.500",
+    "link": "#",
+    "afirmativa": null,
+    "descricao": "A Oracle está com vaga aberta para Desenvolvedor Full Stack. Se você é apaixonado por resolver problemas complexos e busca um ambiente de trabalho dinâmico e colaborativo, essa é a sua chance. Atuará diretamente na evolução da nossa plataforma principal. (Ref: fbh76b97da)"
+  }
+]

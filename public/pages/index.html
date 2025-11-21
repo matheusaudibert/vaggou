@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaggou - As melhores vagas de tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="/public/styles/style.css">
+</head>
+<body>
+  <!-- Elemento do Cursor Personalizado -->
+  <div id="custom-cursor"></div>
+
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('modo-escuro');
+    }
+  </script>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="nav-esquerda">
+      <div class="logo"><a href="index.html">Vaggou</a></div>
+      <ul class="links-nav">
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="jobsletter.html">Jobsletter</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="time.html">Time</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="nav-direita">
+      <a href="https://github.com/FIAP09/vaggou-global-solution" target="_blank" class="btn-icone-nav" aria-label="Repositório GitHub">
+        <i class="ph ph-github-logo"></i>
+      </a>
+      <button class="btn-icone-nav" id="alternar-tema" aria-label="Alternar tema">
+        <i class="ph ph-sun icone-sol" style="display: none;"></i>
+        <i class="ph ph-moon icone-lua"></i>
+      </button>
+      <!-- Botão Menu Hambúrguer -->
+      <button class="btn-icone-nav btn-menu-mobile" aria-label="Menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO PRINCIPAL -->
+
+  <section class="secao-hero">
+    <div class="selo">
+      <span class="emoji-confetti">🎉</span> Introduzindo: vagas afirmativas
+    </div>
+    <h1>Vagas 💼 de Tecnologia na palma da sua mão 🖐️</h1>
+    <p class="subtitulo">
+      Oportunidades atualizadas em tempo real, organizadas automaticamente por <span class="destaque">área</span>, <span class="destaque">senioridade</span> e <span class="destaque">modelo de trabalho</span>.
+    </p>
+    <div class="grupo-botoes">
+      <a href="vagas.html" class="botao botao-primario">
+        Acessar
+        <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+      <a href="jobsletter.html" class="botao botao-secundario">
+        <i class="ph ph-whatsapp-logo"></i>
+        Receber no WhatsApp 
+        <svg class="icone icone-seta" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- PARCEIROS -->
+
+  <section class="secao-parceiros">
+    <div class="carousel-parceiros">
+      <div class="track-parceiros">
+
+        <!-- Imagens Originais -->
+
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/startse.1758115370.svg" alt="Parceiro 4"></div>
+        <div class="slide-parceiro"><img src="https://3299491.fs1.hubspotusercontent-na1.net/hubfs/3299491/logo-azul.svg" alt="Parceiro 5"></div>
+        
+        <!-- Duplicatas (Conjunto 1) -->
+
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/startse.1758115370.svg" alt="Parceiro 4"></div>
+        <div class="slide-parceiro"><img src="https://3299491.fs1.hubspotusercontent-na1.net/hubfs/3299491/logo-azul.svg" alt="Parceiro 5"></div>
+
+        <!-- Duplicatas (Conjunto 2 - para telas muito largas/zoom out) -->
+
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/fiap.1750935836.svg" alt="Parceiro 1"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/alura.1750935836.svg" alt="Parceiro 2"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/pm3.1750935836.svg" alt="Parceiro 3"></div>
+        <div class="slide-parceiro"><img src="https://alun.com.br/assets/img/logos/startse.1758115370.svg" alt="Parceiro 4"></div>
+        <div class="slide-parceiro"><img src="https://3299491.fs1.hubspotusercontent-na1.net/hubfs/3299491/logo-azul.svg" alt="Parceiro 5"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+
+  <section class="secao-padrao">
+    <h2>Como funciona?</h2>
+    <div class="grid-funcionamento">
+      <div class="card-funcionamento">
+        <span class="passo-numero">1</span>
+        <h3>Escolha suas preferências</h3>
+        <p>Defina sua área, stacks e senioridade. A plataforma organiza tudo para você automaticamente.</p>
+      </div>
+      <div class="card-funcionamento">
+        <span class="passo-numero">2</span>
+        <h3>Encontre a vaga ideal</h3>
+        <p>As oportunidades chegam filtradas e prontas para serem avaliadas.</p>
+      </div>
+      <div class="card-funcionamento">
+        <span class="passo-numero">3</span>
+        <h3>Candidate-se com poucos cliques</h3>
+        <p>Abra a vaga, veja os detalhes essenciais e aplique sem perder tempo. Tudo rápido, fácil e livre de spam.</p>
+      </div>
+      <div class="card-funcionamento">
+        <span class="passo-numero">Bônus</span>
+        <h3>Inscreva-se na nossa Jobletters</h3>
+        <p>Receba as melhores vagas diretamente no seu Whatsapp.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+
+  <section class="secao-padrao">
+    <h2>O que as pessoas estão dizendo sobre a Vaggou?</h2>
+    <div class="grid-depoimentos"> 
+
+      <!-- Card 1 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://media.discordapp.net/attachments/1434777603373269003/1440910388601557112/839A5C56-93D4-4717-8BEF-959752F017EE.png?ex=691fdfdf&is=691e8e5f&hm=867db52102f46bd4d4f012283eef1ab1a3f6f9f31589a3bb4d45d8feb62ff85c&=&format=webp&quality=lossless" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Maurício Elefante</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Simplesmente incrível! Consegui minha primeira vaga internacional usando a plataforma. A organização por stack facilitou muito. 🚀
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=5" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Heloísa Costa</span>
+          </div>
+        </div>
+        <p class="comentario">
+          A curadoria das vagas afirmativas é o diferencial que eu estava procurando. Finalmente um lugar que valoriza a diversidade de verdade.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=33" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Carlos Eduardo</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Receber as vagas no WhatsApp economiza muito tempo do meu dia. Não preciso ficar entrando em 10 sites diferentes.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=47" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Marcela Fernandes</span>
+          </div>
+        </div>
+        <p class="comentario">
+          O design da plataforma é super limpo e intuitivo. Adoro como é fácil filtrar por senioridade e modelo de trabalho. Parabéns ao time! 👏
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=11" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Lucas Pereira</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Melhor newsletter de vagas que já assinei. Conteúdo relevante e sem spam. Recomendo para todos os meus colegas devs.
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=9" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Fernanda Lima</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Achei minha vaga atual aqui! O processo foi super rápido e as informações da vaga batiam exatamente com a realidade da empresa.
+        </p>
+      </div>
+
+      <!-- Card 7 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=60" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Rafael Souza</span>
+          </div>
+        </div>
+        <p class="comentario">
+          A plataforma é muito ágil. Consegui entrevistas em empresas que sempre sonhei trabalhar graças aos filtros precisos.
+        </p>
+      </div>
+
+      <!-- Card 8 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://i.pravatar.cc/150?img=44" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Juliana Martins</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Excelente iniciativa! As vagas afirmativas realmente fazem a diferença no mercado e me senti muito acolhida.
+        </p>
+      </div>
+
+      <!-- Card 9 -->
+
+      <div class="card-depoimento">
+        <div class="cabecalho-card">
+          <img src="https://media.discordapp.net/attachments/1434777603373269003/1440910388601557112/839A5C56-93D4-4717-8BEF-959752F017EE.png?ex=691fdfdf&is=691e8e5f&hm=867db52102f46bd4d4f012283eef1ab1a3f6f9f31589a3bb4d45d8feb62ff85c&=&format=webp&quality=lossless" alt="Avatar" class="avatar">
+          <div class="info-usuario">
+            <span class="nome-usuario">Maurício Elefante</span>
+          </div>
+        </div>
+        <p class="comentario">
+          Simplesmente incrível! Consegui minha primeira vaga internacional usando a plataforma. A organização por stack facilitou muito. 🚀
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+
+  <section class="secao-faq">
+    <h2>Perguntas Frequentes</h2>
+    <div class="faq-container">
+      
+      <div class="faq-item">
+        <button class="faq-pergunta">
+          Tem custo?
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-resposta">
+          <p>Não! A Vaggou é totalmente gratuita para candidatos. Nossa missão é conectar talentos às melhores oportunidades sem barreiras financeiras.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pergunta">
+          As vagas são verificadas?
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-resposta">
+          <p>Sim. Nossa equipe e algoritmos verificam a veracidade das empresas e das oportunidades para garantir um ambiente seguro e livre de golpes.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pergunta">
+          Como funciona o jobsletters?
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-resposta">
+          <p>Você cadastra seu e-mail ou WhatsApp, define suas preferências (stack, nível, etc.) e nós enviamos uma curadoria semanal apenas com as vagas que fazem sentido para você.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pergunta">
+          Como eu publico uma vaga?
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-resposta">
+          <p>Se você é recrutador, entre em contato através do botão "Para Empresas" no menu ou envie um e-mail para nosso time comercial para criar sua conta corporativa.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Vaggou</div>
+      <div class="footer-links">
+        Links: <a href="https://www.alura.com.br/">Alura</a> | <a href="https://www.fiap.com.br/">FIAP</a> | <a href="https://pm3.com.br/">PM3</a> | <a href="https://www.startse.com/">StartSe</a>
+      </div>
+      <div class="footer-contact">
+        Fale com o Grupo: <a href="mailto:contato@vaggou.com.br">contato@vaggou.com.br</a>
+      </div>
+      <div class="footer-address">
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/dark.js"></script>
+  <script src="../scripts/menu-hamburguer.js"></script>
+  <script src="../scripts/cursor-personalizado.js"></script>
+</body>
+</html>
