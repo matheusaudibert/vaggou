@@ -413,7 +413,6 @@ footer {
 
 .track-parceiros {
   display: flex;
-  width: calc(200px * 15); 
   animation: scroll 40s linear infinite;
 }
 
