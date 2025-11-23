@@ -130,7 +130,7 @@ Acesse o protótipo hospedado: **https://vaggou.vercel.app**
 
 Vídeo Pitch demonstrando e explicando a solução: 
 
-[![YouTube Card](https://ytcards.audibert.dev/api/G9PNoGMO2-4?width=250&theme=dark&max_title_lines=2&show_duration=true)](https://youtube.com/watch?v=G9PNoGMO2-4)
+[![YouTube Card](https://ytcards.audibert.dev/api/a538hGdUSag?width=250&theme=dark&max_title_lines=1&show_duration=false)](https://youtube.com/watch?v=a538hGdUSag)
 
 ## 👋 Finalização
 
