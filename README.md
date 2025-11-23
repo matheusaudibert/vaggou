@@ -1,14 +1,35 @@
-# [Vaggou](https://vaggou.vercel.app)
-
-O Vaggou é um portal moderno de vagas, atualizado diarimaneto, voltado exclusivamente para o **ecossistema de tecnologia**.
-Nosso objetivo é **conectar talentos a oportunidades reais, com transparência, clareza e foco na experiência do usuário**.
-
-[![IMAGEM](readme/preview.png)](https://vaggou.vercel.app)
-
-Além da listagem de vagas, oferecemos um recurso extra: a **JobLetters**, uma ferramenta onde o usuário informa seu número de WhatsApp e passa a **receber vagas diariamente no celular**, facilitando sua jornada profissional.
+<div align="center">
+  <a href="https://vaggou.vercel.app">
+    <img src="public/readme/logo.png" alt="Vaggou Logo" width="400px"/>
+  </a>
+</div>
+<br>
+<p align="center">
+  <a href="https://https://vaggou.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/website-%23555555?style=flat-square&logo=google-chrome&logoColor=FFFFFF" alt="Site" />
+  </a>
+  <a href="https://github.com/matheusaudibert/projeto-aprova/stargazers">
+    <img src="https://img.shields.io/github/stars/matheusaudibert/vaggou?color=FFFFFF&logo=github&style=flat-square" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/matheusaudibert/projeto-aprova/forks">
+    <img src="https://img.shields.io/github/forks/matheusaudibert/vaggou?color=FFFFFF&logo=github&style=flat-square" alt="GitHub Forks">
+  </a>
+</p>
 
 > [!NOTE]
-> Este projeto foi desenvolvido como parte da [Global Solution](https://www.fiap.com.br/graduacao/global-solution) 2025/2 do 1º ano de Engenharia de Software da [FIAP](https://www.fiap.com.br/), dentro do tema **O Futuro do Trabalho**.
+> Este projeto foi desenvolvido como parte da [Global Solution](https://www.fiap.com.br/graduacao/global-solution) 2025/2 do 1º ano de Engenharia de Software da [FIAP](https://www.fiap.com.br/), dentro do tema **"O Futuro do Trabalho"**.
+
+# [Vaggou](https://vaggou.vercel.app)
+
+O Vaggou é um portal moderno de vagas, atualizado diariamente, voltado exclusivamente para o **ecossistema de tecnologia**.
+
+As vagas de tecnologia estão espalhadas em LinkedIn, Gupy, Indeed, grupos de WhatsApp e Telegram, sites de empresas e até posts informais. Isso torna a busca cansativa, confusa e cheia de vagas desatualizadas.
+
+A Vaggou centraliza vagas de todas essas fontes em um único portal, aplicando curadoria humana e conjunto com inteligência artificial para garantir somente vagas reais, atualizadas e transparentes.
+
+[![IMAGEM](public/readme/preview.png)](https://vaggou.vercel.app)
+
+Além da listagem de vagas, oferecemos um recurso extra: a **JobLetters**, uma ferramenta onde o usuário informa seu número de WhatsApp e passa a **receber vagas diariamente no celular**, facilitando sua jornada profissional.
 
 ## Sumário
 
@@ -46,11 +67,11 @@ O Vaggou contribui ao:
 ✔ Página inicial apresentando o problema e a proposta  
 ✔ Listagem de vagas (com busca e destaque)  
 
-[![IMAGEM](readme/vagas.png)](https://vaggou.vercel.app)
+[![IMAGEM](public/readme/vagas.png)](https://vaggou.vercel.app)
 
 ✔ Página JobLetters com cadastro via WhatsApp  
 
-[![IMAGEM](readme/jobsletter.png)](https://vaggou.vercel.app)
+[![IMAGEM](public/readme/jobsletter.png)](https://vaggou.vercel.app)
 
 ✔ Design responsivo (mobile e desktop)  
 ✔ Acessibilidade de página (modo escuro e modo claro)  
