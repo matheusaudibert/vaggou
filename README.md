@@ -8,12 +8,6 @@
   <a href="https://https://vaggou.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/website-%23555555?style=flat-square&logo=google-chrome&logoColor=FFFFFF" alt="Site" />
   </a>
-  <a href="https://github.com/matheusaudibert/projeto-aprova/stargazers">
-    <img src="https://img.shields.io/github/stars/matheusaudibert/vaggou?color=FFFFFF&logo=github&style=flat-square" alt="GitHub Stars">
-  </a>
-  <a href="https://github.com/matheusaudibert/projeto-aprova/forks">
-    <img src="https://img.shields.io/github/forks/matheusaudibert/vaggou?color=FFFFFF&logo=github&style=flat-square" alt="GitHub Forks">
-  </a>
 </p>
 
 > [!NOTE]
